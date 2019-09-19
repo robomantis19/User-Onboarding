@@ -39,7 +39,7 @@ const OnForm = ({values, errors, touched, status}) => {
             </Form>
             
             {onboard.map(item => ( 
-                <ul key={item.id}>
+                <ul className="square" key={item.id}>
                     <li>Name: {item.Name}</li>
                     <li>Email: {item.Email}</li>
                     <li>Password: {item.Password}</li>
